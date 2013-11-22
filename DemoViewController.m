@@ -16,11 +16,11 @@
 {
     [super viewDidLoad];
     self.title = @"R&M";
-    self.view.backgroundColor = [UIColor blackColor];
-    UIImage *imga = [UIImage imageNamed:@"11.jpg"];
-    UIImageView * imgb = [[UIImageView alloc]initWithFrame:self.view.frame];
-    [imgb setImage:imga];
-    [self.view addSubview:imgb];
+    self.view.backgroundColor = [UIColor whiteColor];
+//    UIImage *imga = [UIImage imageNamed:@"11.jpg"];
+//    UIImageView * imgb = [[UIImageView alloc]initWithFrame:self.view.frame];
+//    [imgb setImage:imga];
+//    [self.view addSubview:imgb];
 }
 
 @end

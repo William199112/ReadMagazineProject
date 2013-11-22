@@ -13,7 +13,7 @@
 
 #define IS_WIDESCREEN ( fabs( ( double )[ [ UIScreen mainScreen ] bounds ].size.height - ( double )568 ) < DBL_EPSILON )
 
-@implementation THWAppDelegate
+@implementation THWAppDelegate 
 
 + (NSInteger)OSVersion
 {
@@ -109,7 +109,7 @@
     
     [self.window addSubview:rView];//add 到window
     
-    [self performSelector:@selector(TheAnimation) withObject:nil afterDelay:4];//5秒后执行TheAnimation
+    [self performSelector:@selector(TheAnimation) withObject:nil afterDelay:2];//4秒后执行TheAnimation
     
     
     
@@ -131,7 +131,7 @@
     
     [[rView layer] addAnimation:animation forKey:@"animation"];
     
-    [self performSelector:@selector(ToUpSide) withObject:nil afterDelay:3];//2秒后执行TheAnimation
+    [self performSelector:@selector(ToUpSide) withObject:nil afterDelay:2];//2秒后执行TheAnimation
 }
 
 #pragma mark - 上升效果
@@ -153,6 +153,8 @@
                      }];
     
 }
+
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

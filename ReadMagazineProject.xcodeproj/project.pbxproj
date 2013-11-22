@@ -25,6 +25,14 @@
 		A116330B183C65CE00FC8FFA /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A116330A183C65CE00FC8FFA /* GDataXMLNode.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A116330C183C65CE00FC8FFA /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A116330A183C65CE00FC8FFA /* GDataXMLNode.m */; };
 		A1163313183C688A00FC8FFA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1163312183C688A00FC8FFA /* QuartzCore.framework */; };
+		A1181179183F37BA00E4F66E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1181177183F37B900E4F66E /* FirstViewController.m */; };
+		A118117A183F37BA00E4F66E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1181178183F37BA00E4F66E /* FirstViewController.xib */; };
+		A118117F183F38A900E4F66E /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118117D183F38A900E4F66E /* RootViewController.xib */; };
+		A1181186183F3CA000E4F66E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1181185183F3CA000E4F66E /* RootViewController.m */; };
+		A118119E183F400200E4F66E /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A118119C183F400100E4F66E /* ThirdViewController.m */; };
+		A118119F183F400200E4F66E /* ThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A118119D183F400100E4F66E /* ThirdViewController.xib */; };
+		A11811B4183F4B1C00E4F66E /* ForthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A11811B2183F4B1B00E4F66E /* ForthViewController.m */; };
+		A11811B5183F4B1C00E4F66E /* ForthViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A11811B3183F4B1B00E4F66E /* ForthViewController.xib */; };
 		A18CE527183C6B9000403C8F /* AccelerationAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE518183C6B9000403C8F /* AccelerationAnimation.m */; };
 		A18CE528183C6B9000403C8F /* Evaluate.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE51A183C6B9000403C8F /* Evaluate.m */; };
 		A18CE529183C6B9000403C8F /* REBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE51C183C6B9000403C8F /* REBackgroundView.m */; };
@@ -34,7 +42,6 @@
 		A18CE52D183C6B9000403C8F /* UINavigationController+DelegateFixes.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE524183C6B9000403C8F /* UINavigationController+DelegateFixes.m */; };
 		A18CE52E183C6B9000403C8F /* UIView+ImageSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE526183C6B9000403C8F /* UIView+ImageSnapshot.m */; };
 		A18CE535183C6BBB00403C8F /* DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE530183C6BBB00403C8F /* DemoViewController.m */; };
-		A18CE536183C6BBB00403C8F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE532183C6BBB00403C8F /* RootViewController.m */; };
 		A18CE537183C6BBB00403C8F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A18CE534183C6BBB00403C8F /* SecondViewController.m */; };
 		A18CE560183CA88C00403C8F /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = A18CE54F183CA88C00403C8F /* 0.png */; };
 		A18CE561183CA88C00403C8F /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A18CE550183CA88C00403C8F /* 1.jpg */; };
@@ -55,6 +62,9 @@
 		A18CE570183CA88C00403C8F /* 16.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A18CE55F183CA88C00403C8F /* 16.jpg */; };
 		A18CE573183CAA0700403C8F /* BookShelfCell.png in Resources */ = {isa = PBXBuildFile; fileRef = A18CE571183CAA0700403C8F /* BookShelfCell.png */; };
 		A18CE574183CAA0700403C8F /* BookShelfCell@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A18CE572183CAA0700403C8F /* BookShelfCell@2x.png */; };
+		A1C2FF65183DBB0B00CD1FAB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C2FF64183DBB0B00CD1FAB /* Icon.png */; };
+		A1C2FF76183DE3F600CD1FAB /* 5-blue-button.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C2FF74183DE3F600CD1FAB /* 5-blue-button.png */; };
+		A1C2FF77183DE3F600CD1FAB /* 5-blue-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A1C2FF75183DE3F600CD1FAB /* 5-blue-button@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,6 +101,18 @@
 		A1163309183C65CE00FC8FFA /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
 		A116330A183C65CE00FC8FFA /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		A1163312183C688A00FC8FFA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A1181176183F37B900E4F66E /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A1181177183F37B900E4F66E /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A1181178183F37BA00E4F66E /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		A118117D183F38A900E4F66E /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		A1181184183F3CA000E4F66E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		A1181185183F3CA000E4F66E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		A118119B183F400000E4F66E /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A118119C183F400100E4F66E /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A118119D183F400100E4F66E /* ThirdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdViewController.xib; sourceTree = "<group>"; };
+		A11811B1183F4B1B00E4F66E /* ForthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForthViewController.h; sourceTree = "<group>"; };
+		A11811B2183F4B1B00E4F66E /* ForthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForthViewController.m; sourceTree = "<group>"; };
+		A11811B3183F4B1B00E4F66E /* ForthViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForthViewController.xib; sourceTree = "<group>"; };
 		A18CE517183C6B9000403C8F /* AccelerationAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccelerationAnimation.h; sourceTree = "<group>"; };
 		A18CE518183C6B9000403C8F /* AccelerationAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccelerationAnimation.m; sourceTree = "<group>"; };
 		A18CE519183C6B9000403C8F /* Evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Evaluate.h; sourceTree = "<group>"; };
@@ -109,8 +131,6 @@
 		A18CE526183C6B9000403C8F /* UIView+ImageSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ImageSnapshot.m"; sourceTree = "<group>"; };
 		A18CE52F183C6BBB00403C8F /* DemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoViewController.h; sourceTree = "<group>"; };
 		A18CE530183C6BBB00403C8F /* DemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoViewController.m; sourceTree = "<group>"; };
-		A18CE531183C6BBB00403C8F /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		A18CE532183C6BBB00403C8F /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		A18CE533183C6BBB00403C8F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		A18CE534183C6BBB00403C8F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A18CE54F183CA88C00403C8F /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
@@ -132,6 +152,9 @@
 		A18CE55F183CA88C00403C8F /* 16.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 16.jpg; sourceTree = "<group>"; };
 		A18CE571183CAA0700403C8F /* BookShelfCell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BookShelfCell.png; sourceTree = "<group>"; };
 		A18CE572183CAA0700403C8F /* BookShelfCell@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BookShelfCell@2x.png"; sourceTree = "<group>"; };
+		A1C2FF64183DBB0B00CD1FAB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		A1C2FF74183DE3F600CD1FAB /* 5-blue-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-blue-button.png"; sourceTree = "<group>"; };
+		A1C2FF75183DE3F600CD1FAB /* 5-blue-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5-blue-button@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +284,8 @@
 		A1163301183C623700FC8FFA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				A1C2FF74183DE3F600CD1FAB /* 5-blue-button.png */,
+				A1C2FF75183DE3F600CD1FAB /* 5-blue-button@2x.png */,
 				A18CE571183CAA0700403C8F /* BookShelfCell.png */,
 				A18CE572183CAA0700403C8F /* BookShelfCell@2x.png */,
 				A18CE54F183CA88C00403C8F /* 0.png */,
@@ -280,6 +305,7 @@
 				A18CE55D183CA88C00403C8F /* 14.jpg */,
 				A18CE55E183CA88C00403C8F /* 15.jpg */,
 				A18CE55F183CA88C00403C8F /* 16.jpg */,
+				A1C2FF64183DBB0B00CD1FAB /* Icon.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -294,6 +320,10 @@
 		A1163303183C628600FC8FFA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				A118117D183F38A900E4F66E /* RootViewController.xib */,
+				A1181178183F37BA00E4F66E /* FirstViewController.xib */,
+				A118119D183F400100E4F66E /* ThirdViewController.xib */,
+				A11811B3183F4B1B00E4F66E /* ForthViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -310,10 +340,16 @@
 			children = (
 				A18CE52F183C6BBB00403C8F /* DemoViewController.h */,
 				A18CE530183C6BBB00403C8F /* DemoViewController.m */,
-				A18CE531183C6BBB00403C8F /* RootViewController.h */,
-				A18CE532183C6BBB00403C8F /* RootViewController.m */,
+				A1181184183F3CA000E4F66E /* RootViewController.h */,
+				A1181185183F3CA000E4F66E /* RootViewController.m */,
 				A18CE533183C6BBB00403C8F /* SecondViewController.h */,
 				A18CE534183C6BBB00403C8F /* SecondViewController.m */,
+				A1181176183F37B900E4F66E /* FirstViewController.h */,
+				A1181177183F37B900E4F66E /* FirstViewController.m */,
+				A118119B183F400000E4F66E /* ThirdViewController.h */,
+				A118119C183F400100E4F66E /* ThirdViewController.m */,
+				A11811B1183F4B1B00E4F66E /* ForthViewController.h */,
+				A11811B2183F4B1B00E4F66E /* ForthViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -445,6 +481,13 @@
 				A18CE570183CA88C00403C8F /* 16.jpg in Resources */,
 				A18CE573183CAA0700403C8F /* BookShelfCell.png in Resources */,
 				A18CE574183CAA0700403C8F /* BookShelfCell@2x.png in Resources */,
+				A1C2FF65183DBB0B00CD1FAB /* Icon.png in Resources */,
+				A1C2FF76183DE3F600CD1FAB /* 5-blue-button.png in Resources */,
+				A1C2FF77183DE3F600CD1FAB /* 5-blue-button@2x.png in Resources */,
+				A118117A183F37BA00E4F66E /* FirstViewController.xib in Resources */,
+				A118117F183F38A900E4F66E /* RootViewController.xib in Resources */,
+				A118119F183F400200E4F66E /* ThirdViewController.xib in Resources */,
+				A11811B5183F4B1C00E4F66E /* ForthViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,8 +534,11 @@
 				A18CE52D183C6B9000403C8F /* UINavigationController+DelegateFixes.m in Sources */,
 				A18CE52E183C6B9000403C8F /* UIView+ImageSnapshot.m in Sources */,
 				A18CE535183C6BBB00403C8F /* DemoViewController.m in Sources */,
-				A18CE536183C6BBB00403C8F /* RootViewController.m in Sources */,
 				A18CE537183C6BBB00403C8F /* SecondViewController.m in Sources */,
+				A1181179183F37BA00E4F66E /* FirstViewController.m in Sources */,
+				A1181186183F3CA000E4F66E /* RootViewController.m in Sources */,
+				A118119E183F400200E4F66E /* ThirdViewController.m in Sources */,
+				A11811B4183F4B1C00E4F66E /* ForthViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

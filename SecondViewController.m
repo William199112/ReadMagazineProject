@@ -23,7 +23,7 @@
     [self.navigationController.navigationBar setTitleTextAttributes:@{UITextAttributeTextColor: [UIColor whiteColor]}];
     if ([self.navigationController.navigationBar respondsToSelector:@selector(setBarTintColor:)]) {
         [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
-        [self.navigationController.navigationBar performSelector:@selector(setBarTintColor:) withObject:[UIColor blueColor]];
+        [self.navigationController.navigationBar performSelector:@selector(setBarTintColor:) withObject:[UIColor cyanColor]];
     } else {
         [self.navigationController.navigationBar setTintColor:[UIColor blueColor]];
     }

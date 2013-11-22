@@ -1,16 +1,13 @@
 //
 //  RootViewController.h
-//  RESideMenuExample
+//  ReadMagazineProject
 //
-//  Created by Roman Efimov on 6/26/13.
-//  Copyright (c) 2013 Roman Efimov. All rights reserved.
+//  Created by William on 13-11-22.
+//  Copyright (c) 2013年 William. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import "RESideMenu.h"
-
-
-@interface RootViewController : UIViewController
-
+@interface RootViewController : UITableViewController<UIScrollViewDelegate>
 
 @end
